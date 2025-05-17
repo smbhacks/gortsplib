@@ -10,13 +10,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/smbhacks/gortsplib/v4/pkg/auth"
-	"github.com/smbhacks/gortsplib/v4/pkg/base"
-	"github.com/smbhacks/gortsplib/v4/pkg/bytecounter"
-	"github.com/smbhacks/gortsplib/v4/pkg/conn"
-	"github.com/smbhacks/gortsplib/v4/pkg/description"
-	"github.com/smbhacks/gortsplib/v4/pkg/headers"
-	"github.com/smbhacks/gortsplib/v4/pkg/liberrors"
+	"github.com/bluenviron/gortsplib/v4/pkg/auth"
+	"github.com/bluenviron/gortsplib/v4/pkg/base"
+	"github.com/bluenviron/gortsplib/v4/pkg/bytecounter"
+	"github.com/bluenviron/gortsplib/v4/pkg/conn"
+	"github.com/bluenviron/gortsplib/v4/pkg/description"
+	"github.com/bluenviron/gortsplib/v4/pkg/headers"
+	"github.com/bluenviron/gortsplib/v4/pkg/liberrors"
 )
 
 func getSessionID(header base.Header) string {

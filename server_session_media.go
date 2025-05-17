@@ -9,8 +9,8 @@ import (
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 
-	"github.com/smbhacks/gortsplib/v4/pkg/description"
-	"github.com/smbhacks/gortsplib/v4/pkg/liberrors"
+	"github.com/bluenviron/gortsplib/v4/pkg/description"
+	"github.com/bluenviron/gortsplib/v4/pkg/liberrors"
 )
 
 type serverSessionMedia struct {

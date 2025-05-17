@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/smbhacks/gortsplib/v4/pkg/base"
+	"github.com/bluenviron/gortsplib/v4/pkg/base"
 )
 
 // Authorization is an Authorization header.

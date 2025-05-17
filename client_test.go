@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/smbhacks/gortsplib/v4/pkg/auth"
-	"github.com/smbhacks/gortsplib/v4/pkg/base"
-	"github.com/smbhacks/gortsplib/v4/pkg/conn"
-	"github.com/smbhacks/gortsplib/v4/pkg/description"
+	"github.com/bluenviron/gortsplib/v4/pkg/auth"
+	"github.com/bluenviron/gortsplib/v4/pkg/base"
+	"github.com/bluenviron/gortsplib/v4/pkg/conn"
+	"github.com/bluenviron/gortsplib/v4/pkg/description"
 )
 
 func mustParseURL(s string) *base.URL {

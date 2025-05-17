@@ -9,13 +9,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/smbhacks/gortsplib/v4/pkg/auth"
-	"github.com/smbhacks/gortsplib/v4/pkg/base"
-	"github.com/smbhacks/gortsplib/v4/pkg/conn"
-	"github.com/smbhacks/gortsplib/v4/pkg/description"
-	"github.com/smbhacks/gortsplib/v4/pkg/headers"
-	"github.com/smbhacks/gortsplib/v4/pkg/liberrors"
-	"github.com/smbhacks/gortsplib/v4/pkg/sdp"
+	"github.com/bluenviron/gortsplib/v4/pkg/auth"
+	"github.com/bluenviron/gortsplib/v4/pkg/base"
+	"github.com/bluenviron/gortsplib/v4/pkg/conn"
+	"github.com/bluenviron/gortsplib/v4/pkg/description"
+	"github.com/bluenviron/gortsplib/v4/pkg/headers"
+	"github.com/bluenviron/gortsplib/v4/pkg/liberrors"
+	"github.com/bluenviron/gortsplib/v4/pkg/sdp"
 )
 
 var serverCert = []byte(`-----BEGIN CERTIFICATE-----

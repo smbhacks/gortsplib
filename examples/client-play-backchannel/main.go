@@ -5,10 +5,10 @@ import (
 	"log"
 	"time"
 
-	"github.com/smbhacks/gortsplib/v4"
-	"github.com/smbhacks/gortsplib/v4/pkg/base"
-	"github.com/smbhacks/gortsplib/v4/pkg/description"
-	"github.com/smbhacks/gortsplib/v4/pkg/format"
+	"github.com/bluenviron/gortsplib/v4"
+	"github.com/bluenviron/gortsplib/v4/pkg/base"
+	"github.com/bluenviron/gortsplib/v4/pkg/description"
+	"github.com/bluenviron/gortsplib/v4/pkg/format"
 	"github.com/bluenviron/mediacommon/v2/pkg/codecs/g711"
 )
 

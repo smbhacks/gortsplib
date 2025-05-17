@@ -2,7 +2,7 @@
 package url
 
 import (
-	"github.com/smbhacks/gortsplib/v4/pkg/base"
+	"github.com/bluenviron/gortsplib/v4/pkg/base"
 )
 
 // URL is a RTSP URL.
