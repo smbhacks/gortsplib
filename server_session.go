@@ -10,6 +10,7 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
+	"math/rand"
 
 	"github.com/google/uuid"
 	"github.com/pion/rtcp"
@@ -278,7 +279,9 @@ func (ss *ServerSession) initialize() {
 	ctx, ctxCancel := context.WithCancel(ss.s.ctx)
 
 	// use an UUID without dashes, since dashes confuse some clients.
-	secretID := strings.ReplaceAll(uuid.New().String(), "-", "")
+	// secretID := strings.ReplaceAll(uuid.New().String(), "-", "")
+	rand.Seed(time.Now().UnixNano())
+	secretID := fmt.Sprintf("%08x", rand.Uint32())
 
 	ss.secretID = secretID
 	ss.ctx = ctx
