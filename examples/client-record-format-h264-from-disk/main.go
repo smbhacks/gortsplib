@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/asticode/go-astits"
-	"github.com/bluenviron/gortsplib/v4"
-	"github.com/bluenviron/gortsplib/v4/pkg/description"
-	"github.com/bluenviron/gortsplib/v4/pkg/format"
+	"github.com/smbhacks/gortsplib/v4"
+	"github.com/smbhacks/gortsplib/v4/pkg/description"
+	"github.com/smbhacks/gortsplib/v4/pkg/format"
 	"github.com/bluenviron/mediacommon/v2/pkg/formats/mpegts"
 )
 

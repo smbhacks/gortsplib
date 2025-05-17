@@ -1,7 +1,7 @@
 package url
 
 import (
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
+	"github.com/smbhacks/gortsplib/v4/pkg/base"
 )
 
 // PathSplitQuery splits a path from a query.

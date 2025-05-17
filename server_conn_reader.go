@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/liberrors"
+	"github.com/smbhacks/gortsplib/v4/pkg/base"
+	"github.com/smbhacks/gortsplib/v4/pkg/liberrors"
 )
 
 type switchReadFuncError struct {
